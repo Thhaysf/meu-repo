@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    background-color: #7C71FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#Início {
+    border: 2px solid #200065;
+    padding: 5px;
+    border-radius: 30px;
+    color: #FFFFFF;
+    background-color: #200065;
+    text-decoration: none;
+}
+
+.Menu2 {
+    border: 2px solid #d7e2ff;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: #d7e2ff;
+    color: #200065;
+}
+
+.titulo {
+    font-family: Inter;
+    color: #FFFFFF;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+main {
+    background-color: #d7e2ff;
+    padding: 5px;
+}
+
+.Nova-coleção {
+    color: #200065;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+ol {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+width: 300px;
+height: 300px;
+
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.Link{
+    display: flex;
+justify-content: center;
+text-decoration: underline;
+}
+
+.new {
+    font-family: Abril Fatface;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.new2 {
+    font-family: Inter;
+    font-weight: 400;
+}
+
+span {
+    font-family: Inter;
+    font-weight: 800;
+
+}
+
+#Nossos {
+    background-color: #aebfeb;
+    display: flex;
+    padding-left: 15rem;
+}
+
+.Nossos-clientes {
+    color: #200065;
+    font-family: Abril Fatface;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    padding: 35px;
+    background-color: #aebfeb;
+
+}
+
+.feedback {
+    border: 5px solid hidden;
+    background-color: #d7e2ff;
+    width: 200px;
+    height: 200px;
+    padding: 55px;
+    margin-bottom: 25px;
+    margin-right: 15px;
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+.pclientes {
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+strong {
+    font-family: Abril Fatface;
+    font-weight: 400;
+}
+
+.Pedidos {
+    background-color: #d7e2ff;
+    color: #200065;
+    display: flex;
+    font-family: Abril Fatface;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 400;
+    padding: 50px;
+    font-size: 28px;
+}
+
+.meuspedidos {
+    background-color: #d7e2ff;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+.cabeçalho {
+    border: 1px solid #1e1e1e;
+    width: 250px;
+    height: 50px;
+    background: #7C71FF;
+}
+
+tr td {
+    border: 1px solid #1e1e1e;
+    width: 250px;
+    height: 50px;
+    text-indent: 20px;
+    background-color: #FFF;
+}
+
+.Faleconosco {
+    background: #AEBFEB;
+    color: #200065;
+    display: flex;
+    font-family: Abril Fatface;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 400;
+    padding: 50px;
+    font-size: 28px;
+}
+
+.contatoconosco {
+    background-color: #AEBFEB;
+    height: 405px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+Label {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 200% */
+    width: 1158px;
+    height: 30px;
+}
+
+input {
+    border: solid;
+    display: flex;
+    width: 1141px;
+    padding: 10px 15px;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid #AAAAAD;
+    background: #FFF;
+}
+
+textarea {
+    border: solid;
+    display: flex;
+    width: 1141px;
+    padding: 10px 15px;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid #AAAAAD;
+    background: #FFF;
+}
+
+button {
+    display: flex;
+    width: 270px;
+    padding: 10px 15px;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid #313131;
+    background: #313131;
+}
+
+.enviar {
+    font-weight: 400;
+    color: #FFF;
+    line-height: 28px;
+    /* 127.273% */
+}
+
+footer {
+    background: #3F3F3F;
+    width: auto;
+    height: 70px;
+}
+
+footer p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    text-indent: 2rem;
+    padding-top: 20px;
+}
